@@ -29,7 +29,7 @@ function queryDatabase() {
       $(col).addClass("thumbnail");
       var image = document.createElement("img");
       image.src = currentObject.imageUrl;
-      $(image).addClass("img");
+      $(image).addClass("img-thumbnail");
       var p = document.createElement("h2");
       $(p).html(currentObject.title);
       $(p).addClass("text");
