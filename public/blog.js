@@ -29,16 +29,16 @@ function queryDatabase() {
       $(col).addClass("thumbnail");
       var image = document.createElement("img");
       image.src = currentObject.imageUrl;
-      $(image).addClass("img-thumbnail");
+      $(image).addClass("img");
       var p = document.createElement("h2");
       $(p).html(currentObject.title);
-      $(p).addClass("text-thumbnail");
+      $(p).addClass("text");
       $(col).append(image);
       $(col).append(p);
 
        var h5 = document.createElement("h5");
       $(h5).html(currentObject.message);
-      $(h5).addClass("text-thumbnail");
+      $(h5).addClass("text");
       $(col).append(p);
       $(col).append(h5);
       $(currentRow).append(col);
